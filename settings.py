@@ -51,10 +51,10 @@ WEBRTC_CLIENT_SETTINGS = ClientSettings(
     )
 # List clasname
 CLASS_NAME = {
-    0: "handphone", 
-    1: "jam", 
-    2: "mobil", 
-    3: "orang", 
-    4: "sepatu", 
-    5: "tas"
+    0: "Defect-NonDef-PhyDMG-Dirty-Snow", 
+    1: "Defective", 
+    2: "Dirty", 
+    3: "Non Defective", 
+    4: "Physical Damage", 
+    5: "Snow"
             }
