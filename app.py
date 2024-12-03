@@ -10,10 +10,10 @@ import settings
 import helper
 
 # Setting page layout
-st.set_page_config(
-    page_title="Deteksi Objek | Yolov8",
-    page_icon="🔍",
-)
+# st.set_page_config(
+#     page_title="Deteksi Objek | Yolov8",
+#     page_icon="🔍",
+# )
 
 # settings
 model_type = 'Detection'
@@ -28,7 +28,7 @@ except Exception as ex:
     print(ex)
 
 # Main page heading
-st.title("DETEKSI OBJEK 🔍")
+st.title("Solar Panel Fault Detection ☀️🛰️⚡")
 
 # Pilihan deteksi
 selected_option = st.selectbox('Silahkan Pilih Mode Deteksi:', settings.SOURCES_LIST)

@@ -202,7 +202,7 @@ def helpFunction():
     html_temp_about1= """
                 <div style="padding:10px; text-align:center;">
                         <h2>
-                            DETEKSI OBJEK
+                            Automated Real-Time Monitoring and AI Fault Detection System for Solar Panels Using Advanced Image Detection
                         </h2>
                     </div>
                     """
@@ -210,39 +210,17 @@ def helpFunction():
 
     html_temp4 = """
                 <div style="padding:10px">
-                    <p>
-                        Website ini adalah hasil dari penelitian saya tentang <strong>"Pengengalan Objek Untuk Pembelajaran Anak-Anak"</strong>.
-                    </p>
-                    <p>
-                        Website ini dibuat dengan bantuan sebuah alat bernama <a rel="noopener" href="https://streamlit.io" target="_blank">Streamlit</a>. Saya juga menggunakan teknologi <a rel="noopener" href="https://docs.ultralytics.com" target="_blank">You Only Look Once</a> (YOLO) versi 8 dari <a rel="noopener" href="https://www.ultralytics.com" target="_blank">Ultralytics</a> untuk mengembangkan modelnya.
-                    </p>
-                    <p>
-                        Dalam penelitian ini, ada 6 benda yang bisa kita kenali, yaitu: <strong>Handphone, Jam, Mobil, Orang, Sepatu,</strong> dan <strong>Tas</strong>. Website ini memiliki 4 cara untuk mengenal benda, yaitu: <strong>mengupload foto</strong>, <strong>mengupload video</strong>, <strong>menyalin link YouTube</strong>, dan <strong>deteksi langsung</strong>.
-                    </p>
-                    <p>
-                        Saya berharap website ini dapat membantu teman-teman, terutama anak-anak usia 3 - 5 tahun, untuk lebih cepat mengenal benda-benda di sekitarnya.
-                    </p>
-                    <p>
-                        Setelah mencoba website ini, tolong isi <a rel="noopener" href="https://forms.gle/k4ULtjY2ShkAegtm8" target="_blank">kuesioner</a> untuk memberikan masukan kepada saya.
-                    </p>
-                    <p>
-                        Jika ada yang ingin ditanyakan, silakan hubungi saya via <a rel="noopener" href="mailto:bie.ritan112@gmail.com">Email</a>.
-                    </p>
-                    <p>
-                        Terima kasih dan Semoga Menyenangkan!
-                    </p>
-
+                    <div>
+                    <h3>Project Description</h3>
+                    This project aims to detect faulty solar panels caused by factors like physical damage, dust, animal droppings, or snow coverage. It distinguishes defective panels from those in good condition to prevent further deterioration and ensure timely maintenance. 
+                    The initiative aligns with promoting sustainable and clean energy (SDGs).🌼
+                    </div>
                 </div>
-                
+
                 <br>
                 
                 <div>
-                    <p>
-                        Tambahan:
-                    </p>
-                    <p>
-                        Mungkin pada saat mencoba mode deteksi video, youtube, dan realtime, hasilnya akan sedikit patah-patah dikarenakan proses berat yang sedang dilakukan. Mohon dimaklumi :)
-                    </p>
+                    
                 </div>
                 """
 

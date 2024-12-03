@@ -13,10 +13,10 @@ if ROOT not in sys.path:
 ROOT = ROOT.relative_to(Path.cwd())
 
 # Mode
-HOME = 'Halaman Utama'
-IMAGE = 'Gambar'
-VIDEO = 'Video'
-WEBCAM = 'Real-Time'
+HOME = 'Homepage'
+IMAGE = 'Image Detection'
+VIDEO = 'Video Detection'
+WEBCAM = 'Real-Time Detection'
 YOUTUBE = 'YouTube'
 
 SOURCES_LIST = [HOME, IMAGE, VIDEO, YOUTUBE, WEBCAM]
@@ -25,7 +25,7 @@ SOURCES_LIST = [HOME, IMAGE, VIDEO, YOUTUBE, WEBCAM]
 IMAGES_DIR = ROOT / 'images'
 DEFAULT_IMAGE = IMAGES_DIR / 'detect.jpg'
 DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'detec_result.jpg'
-IMAGE_HELP = IMAGES_DIR / 'detection-removebg-preview.png'
+IMAGE_HELP = IMAGES_DIR / 'brainstorm.png'
 
 # Videos config
 VIDEO_DIR = ROOT / 'videos'
@@ -51,10 +51,10 @@ WEBRTC_CLIENT_SETTINGS = ClientSettings(
     )
 # List clasname
 CLASS_NAME = {
-    0: "Defect-NonDef-PhyDMG-Dirty-Snow", 
-    1: "Defective", 
-    2: "Dirty", 
-    3: "Non Defective", 
-    4: "Physical Damage", 
-    5: "Snow"
+    0: "handphone", 
+    1: "jam", 
+    2: "mobil", 
+    3: "orang", 
+    4: "sepatu", 
+    5: "tas"
             }
