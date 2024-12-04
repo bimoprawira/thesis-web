@@ -39,7 +39,7 @@ VIDEOS_DICT = {
 
 # ML Model config
 MODEL_DIR = ROOT / 'weights'
-DETECTION_MODEL = MODEL_DIR / 'yolo-custom.pt'
+DETECTION_MODEL = 'yolov8s.pt'
 
 # Webcam source
 WEBCAM_PATH = 0
@@ -51,10 +51,9 @@ WEBRTC_CLIENT_SETTINGS = ClientSettings(
     )
 # List clasname
 CLASS_NAME = {
-    0: "handphone", 
-    1: "jam", 
-    2: "mobil", 
-    3: "orang", 
-    4: "sepatu", 
-    5: "tas"
+    0: "Defective", 
+    1: "Dirty", 
+    2: "Non Defective", 
+    3: "Physical Damage", 
+    4: "Snow"
             }

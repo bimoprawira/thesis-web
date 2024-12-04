@@ -17,7 +17,7 @@ import helper
 
 # settings
 model_type = 'Detection'
-confidence = 0.4
+confidence = 0.5
 model_path = Path(settings.DETECTION_MODEL)
 
 # Load Model
